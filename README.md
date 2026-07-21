@@ -1,5 +1,10 @@
 # Product Management System
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![LocalStorage](https://img.shields.io/badge/LocalStorage-323330?style=for-the-badge&logo=googlechrome&logoColor=white)
+
 ## Sobre o Projeto
 
 Este projeto é um sistema de gerenciamento de produtos desenvolvido utilizando HTML, CSS e JavaScript puro.
@@ -35,7 +40,7 @@ O sistema possui uma área de login para o administrador, um painel administrati
 
 ## Estrutura do Projeto
 
-```
+```text
 ├── index.html
 ├── dashboard.html
 ├── perfil.html
@@ -74,7 +79,7 @@ git clone URL_DO_REPOSITORIO
 
 Para acessar o sistema utilize:
 
-```
+```text
 Email:
 admin@gmail.com
 
