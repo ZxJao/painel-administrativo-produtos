@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #05053D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #F8F8F8;
+    padding: 20px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    color: #05053D;
+    font-size: 2.5rem;
+}
+
+#btnVoltar{
+    margin: 25px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+#btnVoltar:hover{
+    transform: scale(1.05);
+    opacity: .85;
+}
+
+#cards{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#cadastroP{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F8F8F8;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.35);
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #05053D;
+    transform: scale(1.02);
+}
+
+#btnAdicionar{
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #05053D;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#btnAdicionar:hover{
+    transform: scale(1.03);
+    opacity: .9;
+}
+
+.btn-excluir {
+    background-color: #01014be7;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-excluir:hover {
+    opacity: 0.8;
+}
+
+#pCadastrados{
+    width: 100%;
+    height: 600px;
+    background-color: #F8F8F8;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.35);
+}
+
+#pCadastrados h2{
+    text-align: center;
+    color: #05053D;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+#produtos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 470px;
+    overflow-y: auto;
+}
+
+.cardProduto{
+    padding: 20px;
+    background-color: white;
+    border-left: 8px solid #05053D;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.15);
+}
+
+.cardProduto h3{
+    margin-bottom: 10px;
+    color: #05053D;
+}
+
+.cardProduto p{
+    margin-bottom: 5px;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #F8F8F8;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media(max-width:1000px){
+    #cards{
+        grid-template-columns: 1fr;
+    }
+}
